@@ -1,0 +1,313 @@
+﻿namespace ModuloAdicional
+{
+	// Token: 0x02000007 RID: 7
+	[global::Microsoft.VisualBasic.CompilerServices.DesignerGenerated]
+	public partial class FormListadoFormasDePago : global::System.Windows.Forms.Form
+	{
+		// Token: 0x06000032 RID: 50 RVA: 0x0000492C File Offset: 0x00002B2C
+		[global::System.Diagnostics.DebuggerNonUserCode]
+		protected override void Dispose(bool disposing)
+		{
+			try
+			{
+				bool flag = disposing && this.components != null;
+				if (flag)
+				{
+					this.components.Dispose();
+				}
+			}
+			finally
+			{
+				base.Dispose(disposing);
+			}
+		}
+
+		// Token: 0x06000033 RID: 51 RVA: 0x0000497C File Offset: 0x00002B7C
+		[global::System.Diagnostics.DebuggerStepThrough]
+		private void InitializeComponent()
+		{
+			global::System.ComponentModel.ComponentResourceManager componentResourceManager = new global::System.ComponentModel.ComponentResourceManager(typeof(global::ModuloAdicional.FormListadoFormasDePago));
+			this.Panel9 = new global::System.Windows.Forms.Panel();
+			this.PictureBox3 = new global::System.Windows.Forms.PictureBox();
+			this.Label11 = new global::System.Windows.Forms.Label();
+			this.DgvFormasPago = new global::System.Windows.Forms.DataGridView();
+			this.Panel1 = new global::System.Windows.Forms.Panel();
+			this.btnAplicar = new global::System.Windows.Forms.Button();
+			this.txtCambio = new global::System.Windows.Forms.TextBox();
+			this.txtTotal = new global::System.Windows.Forms.TextBox();
+			this.Label3 = new global::System.Windows.Forms.Label();
+			this.Label4 = new global::System.Windows.Forms.Label();
+			this.txtPropia = new global::System.Windows.Forms.TextBox();
+			this.txtConsumo = new global::System.Windows.Forms.TextBox();
+			this.Label2 = new global::System.Windows.Forms.Label();
+			this.Label1 = new global::System.Windows.Forms.Label();
+			this.Button1 = new global::System.Windows.Forms.Button();
+			this.Panel2 = new global::System.Windows.Forms.Panel();
+			this.lblnumcheque = new global::System.Windows.Forms.Label();
+			this.lblserie = new global::System.Windows.Forms.Label();
+			this.lblFoliodelticket = new global::System.Windows.Forms.Label();
+			this.Label6 = new global::System.Windows.Forms.Label();
+			this.txtSaldoFinal = new global::System.Windows.Forms.TextBox();
+			this.txtSaldoPendiente = new global::System.Windows.Forms.TextBox();
+			this.Label5 = new global::System.Windows.Forms.Label();
+			this.Panel9.SuspendLayout();
+			((global::System.ComponentModel.ISupportInitialize)this.PictureBox3).BeginInit();
+			((global::System.ComponentModel.ISupportInitialize)this.DgvFormasPago).BeginInit();
+			this.Panel1.SuspendLayout();
+			this.Panel2.SuspendLayout();
+			base.SuspendLayout();
+			this.Panel9.BackColor = global::System.Drawing.Color.DarkOrange;
+			this.Panel9.Controls.Add(this.PictureBox3);
+			this.Panel9.Controls.Add(this.Label11);
+			this.Panel9.Dock = global::System.Windows.Forms.DockStyle.Top;
+			this.Panel9.Location = new global::System.Drawing.Point(0, 0);
+			this.Panel9.Margin = new global::System.Windows.Forms.Padding(2);
+			this.Panel9.Name = "Panel9";
+			this.Panel9.Size = new global::System.Drawing.Size(761, 27);
+			this.Panel9.TabIndex = 28;
+			this.PictureBox3.Cursor = global::System.Windows.Forms.Cursors.Hand;
+			this.PictureBox3.Dock = global::System.Windows.Forms.DockStyle.Right;
+			this.PictureBox3.Image = (global::System.Drawing.Image)componentResourceManager.GetObject("PictureBox3.Image");
+			this.PictureBox3.Location = new global::System.Drawing.Point(724, 0);
+			this.PictureBox3.Margin = new global::System.Windows.Forms.Padding(2);
+			this.PictureBox3.Name = "PictureBox3";
+			this.PictureBox3.Size = new global::System.Drawing.Size(37, 27);
+			this.PictureBox3.SizeMode = global::System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			this.PictureBox3.TabIndex = 129;
+			this.PictureBox3.TabStop = false;
+			this.Label11.AutoSize = true;
+			this.Label11.Font = new global::System.Drawing.Font("Microsoft Sans Serif", 9.875f, global::System.Drawing.FontStyle.Bold);
+			this.Label11.ForeColor = global::System.Drawing.Color.White;
+			this.Label11.Location = new global::System.Drawing.Point(6, 5);
+			this.Label11.Margin = new global::System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.Label11.Name = "Label11";
+			this.Label11.Size = new global::System.Drawing.Size(61, 17);
+			this.Label11.TabIndex = 0;
+			this.Label11.Text = "PAGAR";
+			this.DgvFormasPago.AllowUserToAddRows = false;
+			this.DgvFormasPago.AllowUserToDeleteRows = false;
+			this.DgvFormasPago.AllowUserToResizeColumns = false;
+			this.DgvFormasPago.AllowUserToResizeRows = false;
+			this.DgvFormasPago.BackgroundColor = global::System.Drawing.SystemColors.Info;
+			this.DgvFormasPago.BorderStyle = global::System.Windows.Forms.BorderStyle.None;
+			this.DgvFormasPago.ColumnHeadersHeightSizeMode = global::System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.DgvFormasPago.Dock = global::System.Windows.Forms.DockStyle.Fill;
+			this.DgvFormasPago.GridColor = global::System.Drawing.SystemColors.AppWorkspace;
+			this.DgvFormasPago.Location = new global::System.Drawing.Point(0, 93);
+			this.DgvFormasPago.Margin = new global::System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.DgvFormasPago.MultiSelect = false;
+			this.DgvFormasPago.Name = "DgvFormasPago";
+			this.DgvFormasPago.RowHeadersVisible = false;
+			this.DgvFormasPago.RowHeadersWidthSizeMode = global::System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+			this.DgvFormasPago.RowTemplate.Height = 24;
+			this.DgvFormasPago.Size = new global::System.Drawing.Size(761, 296);
+			this.DgvFormasPago.TabIndex = 29;
+			this.Panel1.BackColor = global::System.Drawing.SystemColors.Info;
+			this.Panel1.Controls.Add(this.btnAplicar);
+			this.Panel1.Controls.Add(this.txtCambio);
+			this.Panel1.Controls.Add(this.txtTotal);
+			this.Panel1.Controls.Add(this.Label3);
+			this.Panel1.Controls.Add(this.Label4);
+			this.Panel1.Controls.Add(this.txtPropia);
+			this.Panel1.Controls.Add(this.txtConsumo);
+			this.Panel1.Controls.Add(this.Label2);
+			this.Panel1.Controls.Add(this.Label1);
+			this.Panel1.Controls.Add(this.Button1);
+			this.Panel1.Dock = global::System.Windows.Forms.DockStyle.Top;
+			this.Panel1.Location = new global::System.Drawing.Point(0, 27);
+			this.Panel1.Margin = new global::System.Windows.Forms.Padding(2);
+			this.Panel1.Name = "Panel1";
+			this.Panel1.Size = new global::System.Drawing.Size(761, 66);
+			this.Panel1.TabIndex = 30;
+			this.btnAplicar.BackColor = global::System.Drawing.SystemColors.ActiveCaption;
+			this.btnAplicar.Dock = global::System.Windows.Forms.DockStyle.Right;
+			this.btnAplicar.Font = new global::System.Drawing.Font("Microsoft Sans Serif", 7.875f, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point, 0);
+			this.btnAplicar.Image = (global::System.Drawing.Image)componentResourceManager.GetObject("btnAplicar.Image");
+			this.btnAplicar.Location = new global::System.Drawing.Point(529, 0);
+			this.btnAplicar.Margin = new global::System.Windows.Forms.Padding(2);
+			this.btnAplicar.Name = "btnAplicar";
+			this.btnAplicar.Size = new global::System.Drawing.Size(116, 66);
+			this.btnAplicar.TabIndex = 9;
+			this.btnAplicar.Text = "Aplicar";
+			this.btnAplicar.TextAlign = global::System.Drawing.ContentAlignment.BottomCenter;
+			this.btnAplicar.TextImageRelation = global::System.Windows.Forms.TextImageRelation.ImageAboveText;
+			this.btnAplicar.UseVisualStyleBackColor = false;
+			this.txtCambio.Font = new global::System.Drawing.Font("Microsoft Sans Serif", 9.875f, global::System.Drawing.FontStyle.Bold);
+			this.txtCambio.ForeColor = global::System.Drawing.Color.Red;
+			this.txtCambio.Location = new global::System.Drawing.Point(385, 32);
+			this.txtCambio.Margin = new global::System.Windows.Forms.Padding(2);
+			this.txtCambio.Name = "txtCambio";
+			this.txtCambio.ReadOnly = true;
+			this.txtCambio.Size = new global::System.Drawing.Size(143, 22);
+			this.txtCambio.TabIndex = 7;
+			this.txtCambio.TextAlign = global::System.Windows.Forms.HorizontalAlignment.Right;
+			this.txtCambio.Visible = false;
+			this.txtTotal.Font = new global::System.Drawing.Font("Microsoft Sans Serif", 9.875f, global::System.Drawing.FontStyle.Bold);
+			this.txtTotal.ForeColor = global::System.Drawing.Color.Red;
+			this.txtTotal.Location = new global::System.Drawing.Point(385, 8);
+			this.txtTotal.Margin = new global::System.Windows.Forms.Padding(2);
+			this.txtTotal.Name = "txtTotal";
+			this.txtTotal.ReadOnly = true;
+			this.txtTotal.Size = new global::System.Drawing.Size(143, 22);
+			this.txtTotal.TabIndex = 6;
+			this.txtTotal.TextAlign = global::System.Windows.Forms.HorizontalAlignment.Right;
+			this.Label3.AutoSize = true;
+			this.Label3.Font = new global::System.Drawing.Font("Microsoft Sans Serif", 9.875f, global::System.Drawing.FontStyle.Bold);
+			this.Label3.Location = new global::System.Drawing.Point(281, 33);
+			this.Label3.Margin = new global::System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.Label3.Name = "Label3";
+			this.Label3.Size = new global::System.Drawing.Size(104, 17);
+			this.Label3.TabIndex = 5;
+			this.Label3.Text = "CAMBIO M.N.";
+			this.Label3.Visible = false;
+			this.Label4.AutoSize = true;
+			this.Label4.Font = new global::System.Drawing.Font("Microsoft Sans Serif", 9.875f, global::System.Drawing.FontStyle.Bold);
+			this.Label4.Location = new global::System.Drawing.Point(281, 10);
+			this.Label4.Margin = new global::System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.Label4.Name = "Label4";
+			this.Label4.Size = new global::System.Drawing.Size(97, 17);
+			this.Label4.TabIndex = 4;
+			this.Label4.Text = "TOTAL M.N.";
+			this.txtPropia.Font = new global::System.Drawing.Font("Microsoft Sans Serif", 9.875f, global::System.Drawing.FontStyle.Bold);
+			this.txtPropia.Location = new global::System.Drawing.Point(133, 32);
+			this.txtPropia.Margin = new global::System.Windows.Forms.Padding(2);
+			this.txtPropia.Name = "txtPropia";
+			this.txtPropia.ReadOnly = true;
+			this.txtPropia.Size = new global::System.Drawing.Size(143, 22);
+			this.txtPropia.TabIndex = 3;
+			this.txtPropia.TextAlign = global::System.Windows.Forms.HorizontalAlignment.Right;
+			this.txtConsumo.Font = new global::System.Drawing.Font("Microsoft Sans Serif", 9.875f, global::System.Drawing.FontStyle.Bold);
+			this.txtConsumo.Location = new global::System.Drawing.Point(133, 8);
+			this.txtConsumo.Margin = new global::System.Windows.Forms.Padding(2);
+			this.txtConsumo.Name = "txtConsumo";
+			this.txtConsumo.ReadOnly = true;
+			this.txtConsumo.Size = new global::System.Drawing.Size(143, 22);
+			this.txtConsumo.TabIndex = 2;
+			this.txtConsumo.TextAlign = global::System.Windows.Forms.HorizontalAlignment.Right;
+			this.Label2.AutoSize = true;
+			this.Label2.Font = new global::System.Drawing.Font("Microsoft Sans Serif", 9.875f, global::System.Drawing.FontStyle.Bold);
+			this.Label2.Location = new global::System.Drawing.Point(4, 33);
+			this.Label2.Margin = new global::System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.Label2.Name = "Label2";
+			this.Label2.Size = new global::System.Drawing.Size(131, 17);
+			this.Label2.TabIndex = 1;
+			this.Label2.Text = "PROP. INCLUIDA";
+			this.Label1.AutoSize = true;
+			this.Label1.Font = new global::System.Drawing.Font("Microsoft Sans Serif", 9.875f, global::System.Drawing.FontStyle.Bold);
+			this.Label1.Location = new global::System.Drawing.Point(4, 10);
+			this.Label1.Margin = new global::System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.Label1.Name = "Label1";
+			this.Label1.Size = new global::System.Drawing.Size(86, 17);
+			this.Label1.TabIndex = 0;
+			this.Label1.Text = "CONSUMO";
+			this.Button1.BackColor = global::System.Drawing.SystemColors.ActiveCaption;
+			this.Button1.Dock = global::System.Windows.Forms.DockStyle.Right;
+			this.Button1.Font = new global::System.Drawing.Font("Microsoft Sans Serif", 7.875f, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point, 0);
+			this.Button1.Image = (global::System.Drawing.Image)componentResourceManager.GetObject("Button1.Image");
+			this.Button1.Location = new global::System.Drawing.Point(645, 0);
+			this.Button1.Margin = new global::System.Windows.Forms.Padding(2);
+			this.Button1.Name = "Button1";
+			this.Button1.Size = new global::System.Drawing.Size(116, 66);
+			this.Button1.TabIndex = 8;
+			this.Button1.Text = "Cancelar";
+			this.Button1.TextAlign = global::System.Drawing.ContentAlignment.BottomCenter;
+			this.Button1.TextImageRelation = global::System.Windows.Forms.TextImageRelation.ImageAboveText;
+			this.Button1.UseVisualStyleBackColor = false;
+			this.Panel2.BackColor = global::System.Drawing.SystemColors.Info;
+			this.Panel2.Controls.Add(this.lblnumcheque);
+			this.Panel2.Controls.Add(this.lblserie);
+			this.Panel2.Controls.Add(this.lblFoliodelticket);
+			this.Panel2.Controls.Add(this.Label6);
+			this.Panel2.Controls.Add(this.txtSaldoFinal);
+			this.Panel2.Controls.Add(this.txtSaldoPendiente);
+			this.Panel2.Controls.Add(this.Label5);
+			this.Panel2.Dock = global::System.Windows.Forms.DockStyle.Bottom;
+			this.Panel2.Location = new global::System.Drawing.Point(0, 389);
+			this.Panel2.Margin = new global::System.Windows.Forms.Padding(2);
+			this.Panel2.Name = "Panel2";
+			this.Panel2.Size = new global::System.Drawing.Size(761, 40);
+			this.Panel2.TabIndex = 31;
+			this.lblnumcheque.AutoSize = true;
+			this.lblnumcheque.Location = new global::System.Drawing.Point(613, 19);
+			this.lblnumcheque.Margin = new global::System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.lblnumcheque.Name = "lblnumcheque";
+			this.lblnumcheque.Size = new global::System.Drawing.Size(73, 13);
+			this.lblnumcheque.TabIndex = 14;
+			this.lblnumcheque.Text = "lblnumcheque";
+			this.lblnumcheque.Visible = false;
+			this.lblserie.AutoSize = true;
+			this.lblserie.Location = new global::System.Drawing.Point(558, 19);
+			this.lblserie.Margin = new global::System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.lblserie.Name = "lblserie";
+			this.lblserie.Size = new global::System.Drawing.Size(39, 13);
+			this.lblserie.TabIndex = 13;
+			this.lblserie.Text = "lblserie";
+			this.lblserie.Visible = false;
+			this.lblFoliodelticket.AutoSize = true;
+			this.lblFoliodelticket.Location = new global::System.Drawing.Point(505, 19);
+			this.lblFoliodelticket.Margin = new global::System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.lblFoliodelticket.Name = "lblFoliodelticket";
+			this.lblFoliodelticket.Size = new global::System.Drawing.Size(39, 13);
+			this.lblFoliodelticket.TabIndex = 12;
+			this.lblFoliodelticket.Text = "Label7";
+			this.lblFoliodelticket.Visible = false;
+			this.Label6.AutoSize = true;
+			this.Label6.Font = new global::System.Drawing.Font("Microsoft Sans Serif", 9.875f, global::System.Drawing.FontStyle.Bold);
+			this.Label6.Location = new global::System.Drawing.Point(280, 11);
+			this.Label6.Margin = new global::System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.Label6.Name = "Label6";
+			this.Label6.Size = new global::System.Drawing.Size(77, 17);
+			this.Label6.TabIndex = 11;
+			this.Label6.Text = "IMPORTE";
+			this.txtSaldoFinal.Font = new global::System.Drawing.Font("Microsoft Sans Serif", 9.875f, global::System.Drawing.FontStyle.Bold);
+			this.txtSaldoFinal.Location = new global::System.Drawing.Point(360, 10);
+			this.txtSaldoFinal.Margin = new global::System.Windows.Forms.Padding(2);
+			this.txtSaldoFinal.Name = "txtSaldoFinal";
+			this.txtSaldoFinal.ReadOnly = true;
+			this.txtSaldoFinal.Size = new global::System.Drawing.Size(131, 22);
+			this.txtSaldoFinal.TabIndex = 10;
+			this.txtSaldoFinal.TextAlign = global::System.Windows.Forms.HorizontalAlignment.Right;
+			this.txtSaldoPendiente.Font = new global::System.Drawing.Font("Microsoft Sans Serif", 9.875f, global::System.Drawing.FontStyle.Bold);
+			this.txtSaldoPendiente.Location = new global::System.Drawing.Point(67, 10);
+			this.txtSaldoPendiente.Margin = new global::System.Windows.Forms.Padding(2);
+			this.txtSaldoPendiente.Name = "txtSaldoPendiente";
+			this.txtSaldoPendiente.ReadOnly = true;
+			this.txtSaldoPendiente.Size = new global::System.Drawing.Size(129, 22);
+			this.txtSaldoPendiente.TabIndex = 9;
+			this.txtSaldoPendiente.TextAlign = global::System.Windows.Forms.HorizontalAlignment.Right;
+			this.Label5.AutoSize = true;
+			this.Label5.Font = new global::System.Drawing.Font("Microsoft Sans Serif", 9.875f, global::System.Drawing.FontStyle.Bold);
+			this.Label5.Location = new global::System.Drawing.Point(5, 11);
+			this.Label5.Margin = new global::System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.Label5.Name = "Label5";
+			this.Label5.Size = new global::System.Drawing.Size(60, 17);
+			this.Label5.TabIndex = 8;
+			this.Label5.Text = "SALDO";
+			base.AutoScaleDimensions = new global::System.Drawing.SizeF(6f, 13f);
+			base.AutoScaleMode = global::System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = global::System.Drawing.SystemColors.InactiveCaption;
+			base.ClientSize = new global::System.Drawing.Size(761, 429);
+			base.Controls.Add(this.DgvFormasPago);
+			base.Controls.Add(this.Panel2);
+			base.Controls.Add(this.Panel1);
+			base.Controls.Add(this.Panel9);
+			base.FormBorderStyle = global::System.Windows.Forms.FormBorderStyle.None;
+			base.Margin = new global::System.Windows.Forms.Padding(2);
+			base.Name = "FormListadoFormasDePago";
+			base.StartPosition = global::System.Windows.Forms.FormStartPosition.CenterScreen;
+			this.Text = "FormListadoFormasDePago";
+			this.Panel9.ResumeLayout(false);
+			this.Panel9.PerformLayout();
+			((global::System.ComponentModel.ISupportInitialize)this.PictureBox3).EndInit();
+			((global::System.ComponentModel.ISupportInitialize)this.DgvFormasPago).EndInit();
+			this.Panel1.ResumeLayout(false);
+			this.Panel1.PerformLayout();
+			this.Panel2.ResumeLayout(false);
+			this.Panel2.PerformLayout();
+			base.ResumeLayout(false);
+		}
+
+		// Token: 0x0400001C RID: 28
+		private global::System.ComponentModel.IContainer components;
+	}
+}
